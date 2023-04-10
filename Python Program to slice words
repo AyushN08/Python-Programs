@@ -1,0 +1,3 @@
+s = "Python Programming"
+substring = s[7:]  # slicing from the 7th index till the end
+print(substring)  # Output: Programming
