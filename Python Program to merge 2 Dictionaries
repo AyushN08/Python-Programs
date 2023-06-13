@@ -1,0 +1,21 @@
+dict1 = { 'Shivam' : 25,       
+            'Soham' : 22,  
+            'Aaditya' : 20,  
+            'Siddhant' : 27,  
+                        }   
+dict2 = {  
+            'Sahil' : 19,      
+            'Abhay' : 26,  
+            'Swayam' : 24  
+}                          
+print("Before merging the two dictionary ")  
+print("Dictionary No. 1 is : ", dict1)   
+print("Dictionary No. 1 is : ", dict2)   
+  
+dict3 = dict1.copy()  
+  
+for key, value in dict2.items():  
+    dict3[key] = value  
+  
+print("After merging of the two Dictionary ")  
+print(dict3)   
